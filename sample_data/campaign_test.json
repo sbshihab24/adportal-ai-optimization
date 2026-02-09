@@ -1,0 +1,80 @@
+{
+  "campaign_id": "CMP-BEYOND-SCALE-2026",
+  "campaign_metadata": {
+    "name": "Global Winter Launch",
+    "objective": "Sales",
+    "status": "active",
+    "daily_budget": 500,
+    "total_spend": 7250,
+    "platforms": ["Meta", "Google Ads", "TikTok"]
+  },
+  "performance_metrics": {
+    "global": {
+      "roas": 2.9,
+      "cpa": 31.20,
+      "ctr": 2.45,
+      "conversion_rate": 1.8
+    },
+    "platform_breakdown": {
+      "Meta": {
+        "roas": 1.8,
+        "cpa": 48.50,
+        "spend": 3500,
+        "ctr": 1.1,
+        "notes": "High spend, but ROAS is below break-even."
+      },
+      "Google Ads": {
+        "roas": 5.2,
+        "cpa": 12.40,
+        "spend": 2250,
+        "ctr": 4.8,
+        "notes": "Extremely efficient; limited by budget."
+      },
+      "TikTok": {
+        "roas": 3.1,
+        "cpa": 22.10,
+        "spend": 1500,
+        "ctr": 3.9,
+        "notes": "Good engagement, high CTR, but average conversion rate."
+      }
+    }
+  },
+  "creative_performance": [
+    {
+      "id": "VID_WINTER_01",
+      "platform": "TikTok",
+      "type": "video",
+      "ctr": 5.2,
+      "hook_rate": 68.5,
+      "avg_watch_time": "12s",
+      "conversions": 85
+    },
+    {
+      "id": "IMG_STATIC_01",
+      "platform": "Meta",
+      "type": "image",
+      "ctr": 0.6,
+      "hook_rate": 12.1,
+      "avg_watch_time": "n/a",
+      "conversions": 12
+    }
+  ],
+  "audience_insights": {
+    "top_performing_age": "25-34",
+    "underperforming_age": "45-54",
+    "engagement_lift": {
+      "instagram_stories": 42.5,
+      "google_search": 15.2
+    }
+  },
+  "health_flags": {
+    "creative_fatigue": true,
+    "budget_bottleneck": "Google Ads",
+    "audience_saturation_risk": false,
+    "tracking_issues": false
+  },
+  "historical_data": {
+    "last_7_days_trend": "declining_roas",
+    "cpm_change": "+18%"
+  }
+}
